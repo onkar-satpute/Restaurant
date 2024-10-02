@@ -16,5 +16,5 @@ function validateForm() {
     errorMsg.innerHTML = '';
     alert('Login successful!');
     window.location.assign("main.html");
-    return true;
+    return false;
 }
